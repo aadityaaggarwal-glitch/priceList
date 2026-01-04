@@ -85,6 +85,7 @@ async function updateDisplay() {
     renderTable('infinix', dayData.infinix || []);
     renderTable('oppo', dayData.oppo || []);
     renderTable('samsung', dayData.samsung || []);
+    renderTable('nokia', dayData.nokia || []);
     
   } else {
     document.getElementById('dateStatus').className = 'date-status date-not-found';
