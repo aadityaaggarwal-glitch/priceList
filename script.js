@@ -104,7 +104,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   const dateInput = document.getElementById('dateInput');
   const timeInput = document.getElementById('timeInput');
   const resetBtn = document.getElementById('resetDateBtn');
-  const today = new Date().toISOString().split('T')[0];
+  const today = new Date(Date.now() - new Date().getTimezoneOffset() * 60000)
+  .toISOString()
+  .split('T')[0];
   
   dateInput.value = today;
   
