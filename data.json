@@ -4,6 +4,10 @@
     "samsung": [
       { "model": "M17 5G", "ram_storage": "6GB / 128GB", "color": "Black", "price": 14000, "online_price": null, "stock": "In Stock" },
       { "model": "A17 5G", "ram_storage": "6GB / 128GB", "color": "Silver", "price": 17100, "online_price": 19500, "stock": "Out of Stock" }
+    ],
+    "nokia": [
+      { "model": "M17 5G", "ram_storage": "6GB / 128GB", "color": "Black", "price": 14000, "online_price": null, "stock": "In Stock" },
+      { "model": "A17 5G", "ram_storage": "6GB / 128GB", "color": "Silver", "price": 17100, "online_price": 19500, "stock": "Out of Stock" }
     ]
   },
   "11:00 PM": {
